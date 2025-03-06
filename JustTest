@@ -1,0 +1,6 @@
+git init  # Initialize Git in the folder
+git add README.md  # Add the new file
+git commit -m "First commit"  # Save changes
+git branch -M main  # Rename branch to "main"
+git remote add origin https://github.com/KenJapan/Test.git  # Connect to GitHub
+git push -u origin main  # Push the branch and file to GitHub
